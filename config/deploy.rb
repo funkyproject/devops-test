@@ -3,6 +3,7 @@ set :repository,  "git@github.com:funkyproject/devops-test.git"
 
 
 set :user, :prod
+set :deploy_to, "/home/prod"
 set :scm, :git
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
