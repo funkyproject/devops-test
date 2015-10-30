@@ -1,0 +1,14 @@
+{
+    "require-dev": {
+        "kherge/box": "^2.6",
+        "phpunit/phpunit": "^4.0"
+    },
+    "autoload": {
+      "psr-4": {"FDJ\\": "src/"}
+    },
+    "config":{
+      "github-oauth":{
+        "github.com":"fd44d77f95dd14f52572e40cbd7c77ba98e441c7"
+      }
+  }
+}
