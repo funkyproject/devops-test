@@ -1,4 +1,6 @@
 <?php
 
+require_once "vendor/autoload.php";
+
 $people = new \FDJ\Common\People();
-$people->say('Hi, what\'s up!');
+echo $people->say('Hello world !');
